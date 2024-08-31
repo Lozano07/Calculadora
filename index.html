@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+<center>
+	<div class="DatoNumerico">
+		<input type="text" id="numero" readonly><br>
+	<input type="text" id="id" oninput="ValidarNumero()" name="">
+	
+</div>
+<div>
+<button onclick="AsignarValor('7')">7</button>
+<button onclick="AsignarValor('8')">8</button>
+<button onclick="AsignarValor('9')">9</button>
+<button class="CambioColor" onclick="Operaciones('*')">x</button>
+</div>
+
+<div>
+<button onclick="AsignarValor('4')">4</button>
+<button onclick="AsignarValor('5')">5</button>
+<button onclick="AsignarValor('6')">6</button>
+<button id="Resta" class="CambioColor" onclick="Operaciones('-')">-</button>
+</div>
+
+<div>
+<button onclick="AsignarValor('1')">1</button>
+<button onclick="AsignarValor('2')">2</button>
+<button id="tres"onclick="AsignarValor('3')">3</button>
+<button id="Suma" class="CambioColor" onclick="Operaciones('+')">+</button>
+</div>
+
+<div>
+<button onclick="CambiarSigno('+/-')">+/-</button>
+<button onclick="AsignarValor('0')">0</button>
+<button onclick="porcentaje('%')">%</button>
+<button class="CambioColor" onclick="Operaciones('/')">÷</button>
+</div>
+
+<button onclick="Total()">=</button>
+
+<button onclick="Borrar()">C</button>
+
+
+</center>
+
+
+<script src="programa.js"></script>
+</body>
+</html>

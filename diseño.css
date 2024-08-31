@@ -1,0 +1,33 @@
+/*Unir imputs*/
+
+
+.DatoNumerico{
+    border: 2px solid black;
+    width: 200px;
+}
+
+#id {
+    border: none;
+    outline: none;
+}
+
+#numero {
+    border: none;
+    outline: none;
+}
+
+.active{
+     background: red;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
